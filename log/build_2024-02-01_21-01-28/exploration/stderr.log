@@ -1,0 +1,3 @@
+warning: install_data: setup script did not provide a directory for 'share/exploration' -- installing right in '/home/mengo/amr_project_ws/install/exploration'
+
+error: can't copy 'share/exploration': doesn't exist or not a regular file

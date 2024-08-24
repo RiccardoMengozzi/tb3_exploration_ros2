@@ -1,0 +1,30 @@
+[1.506s] Invoking command in '/home/mengo/amr_project_ws/src/exploration': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mengo/amr_project_ws/src/build/exploration/prefix_override:/home/mengo/amr_project_ws/src/install/exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/exploration build --build-base /home/mengo/amr_project_ws/src/build/exploration/build install --record /home/mengo/amr_project_ws/src/build/exploration/install.log --single-version-externally-managed
+[1.826s] running egg_info
+[1.827s] writing ../build/exploration/exploration.egg-info/PKG-INFO
+[1.827s] writing dependency_links to ../build/exploration/exploration.egg-info/dependency_links.txt
+[1.827s] writing entry points to ../build/exploration/exploration.egg-info/entry_points.txt
+[1.827s] writing requirements to ../build/exploration/exploration.egg-info/requires.txt
+[1.827s] writing top-level names to ../build/exploration/exploration.egg-info/top_level.txt
+[1.829s] reading manifest file '../build/exploration/exploration.egg-info/SOURCES.txt'
+[1.830s] adding license file 'LICENSE'
+[1.831s] writing manifest file '../build/exploration/exploration.egg-info/SOURCES.txt'
+[1.831s] running build
+[1.831s] running build_py
+[1.831s] copying exploration/copia.py -> /home/mengo/amr_project_ws/src/build/exploration/build/lib/exploration
+[1.831s] copying exploration/exploration.py -> /home/mengo/amr_project_ws/src/build/exploration/build/lib/exploration
+[1.832s] running install
+[1.832s] running install_lib
+[1.833s] copying /home/mengo/amr_project_ws/src/build/exploration/build/lib/exploration/copia.py -> /home/mengo/amr_project_ws/src/install/exploration/lib/python3.10/site-packages/exploration
+[1.833s] copying /home/mengo/amr_project_ws/src/build/exploration/build/lib/exploration/exploration.py -> /home/mengo/amr_project_ws/src/install/exploration/lib/python3.10/site-packages/exploration
+[1.834s] byte-compiling /home/mengo/amr_project_ws/src/install/exploration/lib/python3.10/site-packages/exploration/copia.py to copia.cpython-310.pyc
+[1.837s] byte-compiling /home/mengo/amr_project_ws/src/install/exploration/lib/python3.10/site-packages/exploration/exploration.py to exploration.cpython-310.pyc
+[1.841s] running install_data
+[1.841s] copying launch/exploration.launch.py -> /home/mengo/amr_project_ws/src/install/exploration/share/exploration
+[1.842s] copying launch/nav_rviz.launch.py -> /home/mengo/amr_project_ws/src/install/exploration/share/exploration
+[1.842s] running install_egg_info
+[1.844s] removing '/home/mengo/amr_project_ws/src/install/exploration/lib/python3.10/site-packages/exploration-0.0.0-py3.10.egg-info' (and everything under it)
+[1.844s] Copying ../build/exploration/exploration.egg-info to /home/mengo/amr_project_ws/src/install/exploration/lib/python3.10/site-packages/exploration-0.0.0-py3.10.egg-info
+[1.845s] running install_scripts
+[1.870s] Installing exploration script to /home/mengo/amr_project_ws/src/install/exploration/lib/exploration
+[1.870s] writing list of installed files to '/home/mengo/amr_project_ws/src/build/exploration/install.log'
+[1.899s] Invoked command in '/home/mengo/amr_project_ws/src/exploration' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mengo/amr_project_ws/src/build/exploration/prefix_override:/home/mengo/amr_project_ws/src/install/exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/exploration build --build-base /home/mengo/amr_project_ws/src/build/exploration/build install --record /home/mengo/amr_project_ws/src/build/exploration/install.log --single-version-externally-managed

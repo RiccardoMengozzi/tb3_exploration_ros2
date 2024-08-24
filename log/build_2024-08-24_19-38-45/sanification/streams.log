@@ -1,0 +1,27 @@
+[1.866s] Invoking command in '/home/mengo/amr_project_ws/src/sanification': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mengo/amr_project_ws/build/sanification/prefix_override:/home/mengo/amr_project_ws/install/sanification/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sanification build --build-base /home/mengo/amr_project_ws/build/sanification/build install --record /home/mengo/amr_project_ws/build/sanification/install.log --single-version-externally-managed
+[2.270s] running egg_info
+[2.271s] writing ../../build/sanification/sanification.egg-info/PKG-INFO
+[2.271s] writing dependency_links to ../../build/sanification/sanification.egg-info/dependency_links.txt
+[2.271s] writing entry points to ../../build/sanification/sanification.egg-info/entry_points.txt
+[2.272s] writing requirements to ../../build/sanification/sanification.egg-info/requires.txt
+[2.272s] writing top-level names to ../../build/sanification/sanification.egg-info/top_level.txt
+[2.276s] reading manifest file '../../build/sanification/sanification.egg-info/SOURCES.txt'
+[2.277s] writing manifest file '../../build/sanification/sanification.egg-info/SOURCES.txt'
+[2.277s] running build
+[2.277s] running build_py
+[2.278s] copying sanification/planner.py -> /home/mengo/amr_project_ws/build/sanification/build/lib/sanification
+[2.278s] running install
+[2.279s] running install_lib
+[2.280s] copying /home/mengo/amr_project_ws/build/sanification/build/lib/sanification/planner.py -> /home/mengo/amr_project_ws/install/sanification/lib/python3.10/site-packages/sanification
+[2.281s] byte-compiling /home/mengo/amr_project_ws/install/sanification/lib/python3.10/site-packages/sanification/planner.py to planner.cpython-310.pyc
+[2.286s] running install_data
+[2.287s] running install_egg_info
+[2.289s] removing '/home/mengo/amr_project_ws/install/sanification/lib/python3.10/site-packages/sanification-0.0.0-py3.10.egg-info' (and everything under it)
+[2.289s] Copying ../../build/sanification/sanification.egg-info to /home/mengo/amr_project_ws/install/sanification/lib/python3.10/site-packages/sanification-0.0.0-py3.10.egg-info
+[2.291s] running install_scripts
+[2.323s] Installing localization script to /home/mengo/amr_project_ws/install/sanification/lib/sanification
+[2.323s] Installing navigation script to /home/mengo/amr_project_ws/install/sanification/lib/sanification
+[2.324s] Installing planner script to /home/mengo/amr_project_ws/install/sanification/lib/sanification
+[2.324s] Installing sanification script to /home/mengo/amr_project_ws/install/sanification/lib/sanification
+[2.324s] writing list of installed files to '/home/mengo/amr_project_ws/build/sanification/install.log'
+[2.377s] Invoked command in '/home/mengo/amr_project_ws/src/sanification' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mengo/amr_project_ws/build/sanification/prefix_override:/home/mengo/amr_project_ws/install/sanification/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sanification build --build-base /home/mengo/amr_project_ws/build/sanification/build install --record /home/mengo/amr_project_ws/build/sanification/install.log --single-version-externally-managed

@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/exploration/exploration.egg-info
+writing ../../build/exploration/exploration.egg-info/PKG-INFO
+writing dependency_links to ../../build/exploration/exploration.egg-info/dependency_links.txt
+writing entry points to ../../build/exploration/exploration.egg-info/entry_points.txt
+writing requirements to ../../build/exploration/exploration.egg-info/requires.txt
+writing top-level names to ../../build/exploration/exploration.egg-info/top_level.txt
+writing manifest file '../../build/exploration/exploration.egg-info/SOURCES.txt'
+reading manifest file '../../build/exploration/exploration.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/exploration/exploration.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mengo/amr_project_ws/build/exploration/build
+creating /home/mengo/amr_project_ws/build/exploration/build/lib
+creating /home/mengo/amr_project_ws/build/exploration/build/lib/exploration
+copying exploration/__init__.py -> /home/mengo/amr_project_ws/build/exploration/build/lib/exploration
+running install
+running install_lib
+creating /home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration
+copying /home/mengo/amr_project_ws/build/exploration/build/lib/exploration/__init__.py -> /home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration
+byte-compiling /home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mengo/amr_project_ws/install/exploration/share/ament_index
+creating /home/mengo/amr_project_ws/install/exploration/share/ament_index/resource_index
+creating /home/mengo/amr_project_ws/install/exploration/share/ament_index/resource_index/packages
+copying resource/exploration -> /home/mengo/amr_project_ws/install/exploration/share/ament_index/resource_index/packages
+copying package.xml -> /home/mengo/amr_project_ws/install/exploration/share/exploration
+running install_egg_info
+Copying ../../build/exploration/exploration.egg-info to /home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/mengo/amr_project_ws/build/exploration/install.log'

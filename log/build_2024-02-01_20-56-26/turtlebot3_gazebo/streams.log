@@ -1,0 +1,6 @@
+[0.725s] Invoking command in '/home/mengo/amr_project_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mengo/amr_project_ws/install/exploration:/opt/ros/humble /usr/bin/cmake --build /home/mengo/amr_project_ws/build/turtlebot3_gazebo -- -j12 -l12
+[0.908s] [ 25%] Built target turtlebot3_drive
+[0.964s] [ 50%] Built target obstacle2
+[0.966s] [ 75%] Built target obstacle1
+[0.969s] [100%] Built target obstacles
+[1.003s] Invoked command in '/home/mengo/amr_project_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mengo/amr_project_ws/install/exploration:/opt/ros/humble /usr/bin/cmake --build /home/mengo/amr_project_ws/build/turtlebot3_gazebo -- -j12 -l12

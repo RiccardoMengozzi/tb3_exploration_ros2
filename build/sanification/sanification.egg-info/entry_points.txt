@@ -1,0 +1,6 @@
+[console_scripts]
+localization = sanification.localization:main
+navigation = sanification.navigation:main
+planner = sanification.planner:main
+sanification = sanification.sanification:main
+

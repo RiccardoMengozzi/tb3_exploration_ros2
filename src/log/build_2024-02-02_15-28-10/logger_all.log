@@ -1,0 +1,177 @@
+[2.731s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.732s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7efdca5f5960>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7efdca83ec50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7efdca83ec50>>)
+[2.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.848s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mengo/amr_project_ws/src'
+[2.848s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.878s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.878s] Level 1:colcon.colcon_core.package_identification:_identify(exploration) by extensions ['ignore', 'ignore_ament_install']
+[2.878s] Level 1:colcon.colcon_core.package_identification:_identify(exploration) by extension 'ignore'
+[2.878s] Level 1:colcon.colcon_core.package_identification:_identify(exploration) by extension 'ignore_ament_install'
+[2.878s] Level 1:colcon.colcon_core.package_identification:_identify(exploration) by extensions ['colcon_pkg']
+[2.878s] Level 1:colcon.colcon_core.package_identification:_identify(exploration) by extension 'colcon_pkg'
+[2.878s] Level 1:colcon.colcon_core.package_identification:_identify(exploration) by extensions ['colcon_meta']
+[2.878s] Level 1:colcon.colcon_core.package_identification:_identify(exploration) by extension 'colcon_meta'
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(exploration) by extensions ['ros']
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(exploration) by extension 'ros'
+[2.882s] DEBUG:colcon.colcon_core.package_identification:Package 'exploration' with type 'ros.ament_python' and name 'exploration'
+[2.883s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.883s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.883s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.883s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.883s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.883s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_gazebo) by extension 'ignore'
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_gazebo) by extension 'ignore_ament_install'
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_gazebo) by extensions ['colcon_pkg']
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_gazebo) by extension 'colcon_pkg'
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_gazebo) by extensions ['colcon_meta']
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_gazebo) by extension 'colcon_meta'
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_gazebo) by extensions ['ros']
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_gazebo) by extension 'ros'
+[2.886s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[2.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.235s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/mengo/amr_project_ws/install
+[3.269s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 378 installed packages in /opt/ros/humble
+[3.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'cmake_args' from command line to 'None'
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'cmake_target' from command line to 'None'
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'cmake_clean_cache' from command line to 'False'
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'cmake_clean_first' from command line to 'False'
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'cmake_force_configure' from command line to 'False'
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'ament_cmake_args' from command line to 'None'
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'catkin_cmake_args' from command line to 'None'
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.532s] DEBUG:colcon.colcon_core.verb:Building package 'exploration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mengo/amr_project_ws/src/build/exploration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mengo/amr_project_ws/src/install/exploration', 'merge_install': False, 'path': '/home/mengo/amr_project_ws/src/exploration', 'symlink_install': False, 'test_result_base': None}
+[3.573s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[3.573s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[3.573s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.573s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[3.573s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[3.573s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[3.573s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[3.573s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[3.573s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.573s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mengo/amr_project_ws/src/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/mengo/amr_project_ws/src/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[3.614s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.659s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.659s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mengo/amr_project_ws/src/exploration' with build type 'ament_python'
+[3.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('exploration', 'ament_prefix_path')
+[3.707s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mengo/amr_project_ws/src/install/exploration/share/exploration/hook/ament_prefix_path.ps1'
+[3.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mengo/amr_project_ws/src/install/exploration/share/exploration/hook/ament_prefix_path.dsv'
+[3.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mengo/amr_project_ws/src/install/exploration/share/exploration/hook/ament_prefix_path.sh'
+[3.754s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.754s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.879s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mengo/amr_project_ws/src/turtlebot3_gazebo' with build type 'ament_cmake'
+[3.880s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mengo/amr_project_ws/src/turtlebot3_gazebo'
+[3.923s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.923s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.691s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mengo/amr_project_ws/src/exploration'
+[4.730s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.730s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mengo/amr_project_ws/src/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mengo/amr_project_ws/install/exploration:/opt/ros/humble /usr/bin/cmake --build /home/mengo/amr_project_ws/src/build/turtlebot3_gazebo -- -j12 -l12
+[5.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mengo/amr_project_ws/src/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mengo/amr_project_ws/install/exploration:/opt/ros/humble /usr/bin/cmake --build /home/mengo/amr_project_ws/src/build/turtlebot3_gazebo -- -j12 -l12
+[5.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mengo/amr_project_ws/src/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mengo/amr_project_ws/install/exploration:/opt/ros/humble /usr/bin/cmake --install /home/mengo/amr_project_ws/src/build/turtlebot3_gazebo
+[5.367s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[5.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mengo/amr_project_ws/src/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mengo/amr_project_ws/install/exploration:/opt/ros/humble /usr/bin/cmake --install /home/mengo/amr_project_ws/src/build/turtlebot3_gazebo
+[5.448s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo' for CMake module files
+[5.449s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo' for CMake config files
+[5.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[5.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[5.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[5.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[5.496s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/lib'
+[5.497s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/bin'
+[5.497s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[5.498s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[5.499s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/bin'
+[5.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[5.545s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[5.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[5.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[5.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[5.549s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[5.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[5.720s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo' for CMake module files
+[5.721s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo' for CMake config files
+[5.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[5.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[5.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[5.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[5.780s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/lib'
+[5.780s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/bin'
+[5.780s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[5.781s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[5.782s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/bin'
+[5.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[5.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[5.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[5.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[5.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[5.835s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[5.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mengo/amr_project_ws/src/exploration': PYTHONPATH=/home/mengo/amr_project_ws/src/build/exploration/prefix_override:/home/mengo/amr_project_ws/src/install/exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/exploration build --build-base /home/mengo/amr_project_ws/src/build/exploration/build install --record /home/mengo/amr_project_ws/src/build/exploration/install.log --single-version-externally-managed
+[6.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mengo/amr_project_ws/src/exploration' returned '0': PYTHONPATH=/home/mengo/amr_project_ws/src/build/exploration/prefix_override:/home/mengo/amr_project_ws/src/install/exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/exploration build --build-base /home/mengo/amr_project_ws/src/build/exploration/build install --record /home/mengo/amr_project_ws/src/build/exploration/install.log --single-version-externally-managed
+[6.647s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/exploration' for CMake module files
+[6.647s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/exploration' for CMake config files
+[6.648s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/exploration/lib'
+[6.648s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/exploration/bin'
+[6.648s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/exploration/lib/pkgconfig/exploration.pc'
+[6.649s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/exploration/lib/python3.10/site-packages'
+[6.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('exploration', 'pythonpath')
+[6.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mengo/amr_project_ws/src/install/exploration/share/exploration/hook/pythonpath.ps1'
+[6.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mengo/amr_project_ws/src/install/exploration/share/exploration/hook/pythonpath.dsv'
+[6.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mengo/amr_project_ws/src/install/exploration/share/exploration/hook/pythonpath.sh'
+[6.688s] Level 1:colcon.colcon_core.environment:checking '/home/mengo/amr_project_ws/src/install/exploration/bin'
+[6.690s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exploration)
+[6.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/mengo/amr_project_ws/src/install/exploration/share/exploration/package.ps1'
+[6.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mengo/amr_project_ws/src/install/exploration/share/exploration/package.dsv'
+[6.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/mengo/amr_project_ws/src/install/exploration/share/exploration/package.sh'
+[6.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/mengo/amr_project_ws/src/install/exploration/share/exploration/package.bash'
+[6.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/mengo/amr_project_ws/src/install/exploration/share/exploration/package.zsh'
+[6.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mengo/amr_project_ws/src/install/exploration/share/colcon-core/packages/exploration)
+[6.741s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.741s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.741s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.741s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.789s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.789s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.789s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.820s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.874s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mengo/amr_project_ws/src/install/local_setup.ps1'
+[6.879s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mengo/amr_project_ws/src/install/_local_setup_util_ps1.py'
+[6.882s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mengo/amr_project_ws/src/install/setup.ps1'
+[6.946s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mengo/amr_project_ws/src/install/local_setup.sh'
+[6.948s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mengo/amr_project_ws/src/install/_local_setup_util_sh.py'
+[6.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mengo/amr_project_ws/src/install/setup.sh'
+[7.005s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mengo/amr_project_ws/src/install/local_setup.bash'
+[7.006s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mengo/amr_project_ws/src/install/setup.bash'
+[7.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mengo/amr_project_ws/src/install/local_setup.zsh'
+[7.052s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mengo/amr_project_ws/src/install/setup.zsh'

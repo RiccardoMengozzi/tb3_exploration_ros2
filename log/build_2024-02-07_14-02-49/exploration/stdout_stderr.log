@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/exploration/exploration.egg-info/PKG-INFO
+writing dependency_links to ../../build/exploration/exploration.egg-info/dependency_links.txt
+writing entry points to ../../build/exploration/exploration.egg-info/entry_points.txt
+writing requirements to ../../build/exploration/exploration.egg-info/requires.txt
+writing top-level names to ../../build/exploration/exploration.egg-info/top_level.txt
+reading manifest file '../../build/exploration/exploration.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/exploration/exploration.egg-info/SOURCES.txt'
+running build
+running build_py
+copying exploration/exploration.py -> /home/mengo/amr_project_ws/build/exploration/build/lib/exploration
+running install
+running install_lib
+copying /home/mengo/amr_project_ws/build/exploration/build/lib/exploration/exploration.py -> /home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration
+byte-compiling /home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration/exploration.py to exploration.cpython-310.pyc
+running install_data
+copying launch/nav_rviz.launch.py -> /home/mengo/amr_project_ws/install/exploration/share/exploration
+running install_egg_info
+removing '/home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/exploration/exploration.egg-info to /home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration-0.0.0-py3.10.egg-info
+running install_scripts
+Installing exploration script to /home/mengo/amr_project_ws/install/exploration/lib/exploration
+writing list of installed files to '/home/mengo/amr_project_ws/build/exploration/install.log'

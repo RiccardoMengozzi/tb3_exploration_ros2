@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/sanification/sanification.egg-info/PKG-INFO
+writing dependency_links to ../../build/sanification/sanification.egg-info/dependency_links.txt
+writing entry points to ../../build/sanification/sanification.egg-info/entry_points.txt
+writing requirements to ../../build/sanification/sanification.egg-info/requires.txt
+writing top-level names to ../../build/sanification/sanification.egg-info/top_level.txt
+reading manifest file '../../build/sanification/sanification.egg-info/SOURCES.txt'
+writing manifest file '../../build/sanification/sanification.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sanification/planner.py -> /home/mengo/amr_project_ws/build/sanification/build/lib/sanification
+running install
+running install_lib
+copying /home/mengo/amr_project_ws/build/sanification/build/lib/sanification/planner.py -> /home/mengo/amr_project_ws/install/sanification/lib/python3.10/site-packages/sanification
+byte-compiling /home/mengo/amr_project_ws/install/sanification/lib/python3.10/site-packages/sanification/planner.py to planner.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/mengo/amr_project_ws/install/sanification/lib/python3.10/site-packages/sanification-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/sanification/sanification.egg-info to /home/mengo/amr_project_ws/install/sanification/lib/python3.10/site-packages/sanification-0.0.0-py3.10.egg-info
+running install_scripts
+Installing localization script to /home/mengo/amr_project_ws/install/sanification/lib/sanification
+Installing navigation script to /home/mengo/amr_project_ws/install/sanification/lib/sanification
+Installing sanification script to /home/mengo/amr_project_ws/install/sanification/lib/sanification
+writing list of installed files to '/home/mengo/amr_project_ws/build/sanification/install.log'

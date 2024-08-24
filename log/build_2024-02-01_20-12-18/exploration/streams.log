@@ -1,0 +1,25 @@
+[1.378s] Invoking command in '/home/mengo/amr_project_ws/src/exploration': PYTHONPATH=/home/mengo/amr_project_ws/build/exploration/prefix_override:/home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/exploration build --build-base /home/mengo/amr_project_ws/build/exploration/build install --record /home/mengo/amr_project_ws/build/exploration/install.log --single-version-externally-managed
+[1.708s] running egg_info
+[1.708s] writing ../../build/exploration/exploration.egg-info/PKG-INFO
+[1.709s] writing dependency_links to ../../build/exploration/exploration.egg-info/dependency_links.txt
+[1.709s] writing entry points to ../../build/exploration/exploration.egg-info/entry_points.txt
+[1.709s] writing requirements to ../../build/exploration/exploration.egg-info/requires.txt
+[1.709s] writing top-level names to ../../build/exploration/exploration.egg-info/top_level.txt
+[1.710s] reading manifest file '../../build/exploration/exploration.egg-info/SOURCES.txt'
+[1.711s] adding license file 'LICENSE'
+[1.711s] writing manifest file '../../build/exploration/exploration.egg-info/SOURCES.txt'
+[1.711s] running build
+[1.711s] running build_py
+[1.711s] copying exploration/velocity_controller.py -> /home/mengo/amr_project_ws/build/exploration/build/lib/exploration
+[1.712s] running install
+[1.712s] running install_lib
+[1.712s] copying /home/mengo/amr_project_ws/build/exploration/build/lib/exploration/velocity_controller.py -> /home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration
+[1.713s] byte-compiling /home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration/velocity_controller.py to velocity_controller.cpython-310.pyc
+[1.713s] running install_data
+[1.714s] running install_egg_info
+[1.715s] removing '/home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration-0.0.0-py3.10.egg-info' (and everything under it)
+[1.715s] Copying ../../build/exploration/exploration.egg-info to /home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration-0.0.0-py3.10.egg-info
+[1.716s] running install_scripts
+[1.732s] Installing velocity_controller script to /home/mengo/amr_project_ws/install/exploration/lib/exploration
+[1.732s] writing list of installed files to '/home/mengo/amr_project_ws/build/exploration/install.log'
+[1.752s] Invoked command in '/home/mengo/amr_project_ws/src/exploration' returned '0': PYTHONPATH=/home/mengo/amr_project_ws/build/exploration/prefix_override:/home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/exploration build --build-base /home/mengo/amr_project_ws/build/exploration/build install --record /home/mengo/amr_project_ws/build/exploration/install.log --single-version-externally-managed

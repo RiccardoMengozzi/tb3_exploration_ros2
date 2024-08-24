@@ -1,0 +1,25 @@
+[2.041s] Invoking command in '/home/mengo/amr_project_ws/src/exploration': PYTHONPATH=/home/mengo/amr_project_ws/build/exploration/prefix_override:/home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/exploration build --build-base /home/mengo/amr_project_ws/build/exploration/build install --record /home/mengo/amr_project_ws/build/exploration/install.log --single-version-externally-managed
+[2.455s] running egg_info
+[2.455s] writing ../../build/exploration/exploration.egg-info/PKG-INFO
+[2.455s] writing dependency_links to ../../build/exploration/exploration.egg-info/dependency_links.txt
+[2.455s] writing entry points to ../../build/exploration/exploration.egg-info/entry_points.txt
+[2.455s] writing requirements to ../../build/exploration/exploration.egg-info/requires.txt
+[2.455s] writing top-level names to ../../build/exploration/exploration.egg-info/top_level.txt
+[2.456s] reading manifest file '../../build/exploration/exploration.egg-info/SOURCES.txt'
+[2.460s] adding license file 'LICENSE'
+[2.460s] writing manifest file '../../build/exploration/exploration.egg-info/SOURCES.txt'
+[2.460s] running build
+[2.460s] running build_py
+[2.461s] copying exploration/exploration.py -> /home/mengo/amr_project_ws/build/exploration/build/lib/exploration
+[2.461s] running install
+[2.461s] running install_lib
+[2.461s] copying /home/mengo/amr_project_ws/build/exploration/build/lib/exploration/exploration.py -> /home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration
+[2.461s] byte-compiling /home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration/exploration.py to exploration.cpython-310.pyc
+[2.465s] running install_data
+[2.466s] running install_egg_info
+[2.471s] removing '/home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration-0.0.0-py3.10.egg-info' (and everything under it)
+[2.471s] Copying ../../build/exploration/exploration.egg-info to /home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages/exploration-0.0.0-py3.10.egg-info
+[2.471s] running install_scripts
+[2.491s] Installing exploration script to /home/mengo/amr_project_ws/install/exploration/lib/exploration
+[2.491s] writing list of installed files to '/home/mengo/amr_project_ws/build/exploration/install.log'
+[2.517s] Invoked command in '/home/mengo/amr_project_ws/src/exploration' returned '0': PYTHONPATH=/home/mengo/amr_project_ws/build/exploration/prefix_override:/home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/exploration build --build-base /home/mengo/amr_project_ws/build/exploration/build install --record /home/mengo/amr_project_ws/build/exploration/install.log --single-version-externally-managed

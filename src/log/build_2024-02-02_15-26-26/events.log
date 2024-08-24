@@ -1,0 +1,556 @@
+[0.000000] (-) TimerEvent: {}
+[0.000709] (exploration) JobQueued: {'identifier': 'exploration', 'dependencies': OrderedDict()}
+[0.000982] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.001052] (exploration) JobStarted: {'identifier': 'exploration'}
+[0.099869] (-) TimerEvent: {}
+[0.200496] (-) TimerEvent: {}
+[0.232549] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.300729] (-) TimerEvent: {}
+[0.401625] (-) TimerEvent: {}
+[0.502734] (-) TimerEvent: {}
+[0.603837] (-) TimerEvent: {}
+[0.705562] (-) TimerEvent: {}
+[0.806396] (-) TimerEvent: {}
+[0.907325] (-) TimerEvent: {}
+[1.007801] (-) TimerEvent: {}
+[1.108200] (-) TimerEvent: {}
+[1.208557] (-) TimerEvent: {}
+[1.308965] (-) TimerEvent: {}
+[1.366092] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[1.369285] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[1.370940] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mengo/amr_project_ws/src/build/turtlebot3_gazebo', '--', '-j12', '-l12'], 'cwd': '/home/mengo/amr_project_ws/src/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'mengo'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mengo'), ('OLDPWD', '/home/mengo/amr_project_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1610'), ('SYSTEMD_EXEC_PID', '1772'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '43675'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mengo/amr_project_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mengo'), ('JOURNAL_STREAM', '8:35116'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mengo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mengo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mengo-VivoBook-ASUSLaptop-X571GT-X571GT:@/tmp/.ICE-unix/1751,unix/mengo-VivoBook-ASUSLaptop-X571GT-X571GT:/tmp/.ICE-unix/1751'), ('INVOCATION_ID', '6a177145358d4ea4893793032f62d816'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2EOGI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mengo/amr_project_ws/install/turtlebot3_gazebo:/home/mengo/amr_project_ws/install/exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f1689be2-4575-4470-aa71-e2e51f77b7bd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mengo/amr_project_ws/src/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mengo/amr_project_ws/install/turtlebot3_gazebo:/home/mengo/amr_project_ws/install/exploration:/opt/ros/humble')]), 'shell': False}
+[1.409214] (-) TimerEvent: {}
+[1.483222] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[1.483655] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o\x1b[0m\n'}
+[1.488275] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o\x1b[0m\n'}
+[1.493171] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o\x1b[0m\n'}
+[1.510015] (-) TimerEvent: {}
+[1.620341] (-) TimerEvent: {}
+[1.721096] (-) TimerEvent: {}
+[1.822094] (-) TimerEvent: {}
+[1.933866] (-) TimerEvent: {}
+[2.034552] (-) TimerEvent: {}
+[2.135453] (-) TimerEvent: {}
+[2.236175] (-) TimerEvent: {}
+[2.336791] (-) TimerEvent: {}
+[2.437503] (-) TimerEvent: {}
+[2.537872] (-) TimerEvent: {}
+[2.639022] (-) TimerEvent: {}
+[2.740023] (-) TimerEvent: {}
+[2.843759] (-) TimerEvent: {}
+[2.949161] (exploration) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/exploration', 'build', '--build-base', '/home/mengo/amr_project_ws/src/build/exploration/build', 'install', '--record', '/home/mengo/amr_project_ws/src/build/exploration/install.log', '--single-version-externally-managed'], 'cwd': '/home/mengo/amr_project_ws/src/exploration', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'mengo', 'LC_TIME': 'it_IT.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mengo', 'OLDPWD': '/home/mengo/amr_project_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'MANAGERPID': '1610', 'SYSTEMD_EXEC_PID': '1772', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '43675', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mengo/amr_project_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mengo', 'JOURNAL_STREAM': '8:35116', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mengo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mengo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mengo-VivoBook-ASUSLaptop-X571GT-X571GT:@/tmp/.ICE-unix/1751,unix/mengo-VivoBook-ASUSLaptop-X571GT-X571GT:/tmp/.ICE-unix/1751', 'INVOCATION_ID': '6a177145358d4ea4893793032f62d816', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'it_IT.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.2EOGI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mengo/amr_project_ws/install/turtlebot3_gazebo:/home/mengo/amr_project_ws/install/exploration:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:f1689be2-4575-4470-aa71-e2e51f77b7bd', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mengo/amr_project_ws/src/build/exploration', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mengo/amr_project_ws/src/build/exploration/prefix_override:/home/mengo/amr_project_ws/src/install/exploration/lib/python3.10/site-packages:/home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/mengo/amr_project_ws/install/turtlebot3_gazebo'}, 'shell': False}
+[2.954463] (-) TimerEvent: {}
+[3.055255] (-) TimerEvent: {}
+[3.157311] (-) TimerEvent: {}
+[3.262160] (-) TimerEvent: {}
+[3.366853] (-) TimerEvent: {}
+[3.467863] (-) TimerEvent: {}
+[3.569728] (-) TimerEvent: {}
+[3.672286] (-) TimerEvent: {}
+[3.775230] (-) TimerEvent: {}
+[3.877361] (-) TimerEvent: {}
+[3.978379] (-) TimerEvent: {}
+[4.071522] (exploration) StdoutLine: {'line': b'running egg_info\n'}
+[4.074653] (exploration) StdoutLine: {'line': b'writing ../build/exploration/exploration.egg-info/PKG-INFO\n'}
+[4.078144] (exploration) StdoutLine: {'line': b'writing dependency_links to ../build/exploration/exploration.egg-info/dependency_links.txt\n'}
+[4.079797] (-) TimerEvent: {}
+[4.080520] (exploration) StdoutLine: {'line': b'writing entry points to ../build/exploration/exploration.egg-info/entry_points.txt\n'}
+[4.082569] (exploration) StdoutLine: {'line': b'writing requirements to ../build/exploration/exploration.egg-info/requires.txt\n'}
+[4.083783] (exploration) StdoutLine: {'line': b'writing top-level names to ../build/exploration/exploration.egg-info/top_level.txt\n'}
+[4.086547] (exploration) StdoutLine: {'line': b"reading manifest file '../build/exploration/exploration.egg-info/SOURCES.txt'\n"}
+[4.087519] (exploration) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.089621] (exploration) StdoutLine: {'line': b"writing manifest file '../build/exploration/exploration.egg-info/SOURCES.txt'\n"}
+[4.090273] (exploration) StdoutLine: {'line': b'running build\n'}
+[4.090550] (exploration) StdoutLine: {'line': b'running build_py\n'}
+[4.091430] (exploration) StdoutLine: {'line': b'running install\n'}
+[4.092635] (exploration) StdoutLine: {'line': b'running install_lib\n'}
+[4.095457] (exploration) StdoutLine: {'line': b'running install_data\n'}
+[4.097164] (exploration) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.106558] (exploration) StdoutLine: {'line': b"removing '/home/mengo/amr_project_ws/src/install/exploration/lib/python3.10/site-packages/exploration-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.108374] (exploration) StdoutLine: {'line': b'Copying ../build/exploration/exploration.egg-info to /home/mengo/amr_project_ws/src/install/exploration/lib/python3.10/site-packages/exploration-0.0.0-py3.10.egg-info\n'}
+[4.110870] (exploration) StdoutLine: {'line': b'running install_scripts\n'}
+[4.170129] (exploration) StdoutLine: {'line': b'Installing navigation_to_pose script to /home/mengo/amr_project_ws/src/install/exploration/lib/exploration\n'}
+[4.172790] (exploration) StdoutLine: {'line': b"writing list of installed files to '/home/mengo/amr_project_ws/src/build/exploration/install.log'\n"}
+[4.180088] (-) TimerEvent: {}
+[4.259381] (exploration) CommandEnded: {'returncode': 0}
+[4.280516] (-) TimerEvent: {}
+[4.389090] (-) TimerEvent: {}
+[4.495616] (-) TimerEvent: {}
+[4.612733] (-) TimerEvent: {}
+[4.637913] (exploration) JobEnded: {'identifier': 'exploration', 'rc': 0}
+[4.712978] (-) TimerEvent: {}
+[4.815419] (-) TimerEvent: {}
+[4.915857] (-) TimerEvent: {}
+[5.016948] (-) TimerEvent: {}
+[5.117774] (-) TimerEvent: {}
+[5.219495] (-) TimerEvent: {}
+[5.321658] (-) TimerEvent: {}
+[5.422037] (-) TimerEvent: {}
+[5.522510] (-) TimerEvent: {}
+[5.627638] (-) TimerEvent: {}
+[5.730513] (-) TimerEvent: {}
+[5.832311] (-) TimerEvent: {}
+[5.932786] (-) TimerEvent: {}
+[6.033385] (-) TimerEvent: {}
+[6.136548] (-) TimerEvent: {}
+[6.237460] (-) TimerEvent: {}
+[6.340006] (-) TimerEvent: {}
+[6.443394] (-) TimerEvent: {}
+[6.545336] (-) TimerEvent: {}
+[6.647642] (-) TimerEvent: {}
+[6.748318] (-) TimerEvent: {}
+[6.848770] (-) TimerEvent: {}
+[6.949756] (-) TimerEvent: {}
+[7.052142] (-) TimerEvent: {}
+[7.157652] (-) TimerEvent: {}
+[7.258108] (-) TimerEvent: {}
+[7.359691] (-) TimerEvent: {}
+[7.466964] (-) TimerEvent: {}
+[7.567841] (-) TimerEvent: {}
+[7.668802] (-) TimerEvent: {}
+[7.769576] (-) TimerEvent: {}
+[7.873193] (-) TimerEvent: {}
+[7.974296] (-) TimerEvent: {}
+[8.075686] (-) TimerEvent: {}
+[8.178394] (-) TimerEvent: {}
+[8.279012] (-) TimerEvent: {}
+[8.384759] (-) TimerEvent: {}
+[8.485178] (-) TimerEvent: {}
+[8.585950] (-) TimerEvent: {}
+[8.686875] (-) TimerEvent: {}
+[8.788292] (-) TimerEvent: {}
+[8.888947] (-) TimerEvent: {}
+[8.991714] (-) TimerEvent: {}
+[9.092083] (-) TimerEvent: {}
+[9.194006] (-) TimerEvent: {}
+[9.294949] (-) TimerEvent: {}
+[9.397484] (-) TimerEvent: {}
+[9.500571] (-) TimerEvent: {}
+[9.600911] (-) TimerEvent: {}
+[9.702463] (-) TimerEvent: {}
+[9.803297] (-) TimerEvent: {}
+[9.904228] (-) TimerEvent: {}
+[10.006059] (-) TimerEvent: {}
+[10.109933] (-) TimerEvent: {}
+[10.214510] (-) TimerEvent: {}
+[10.321264] (-) TimerEvent: {}
+[10.422656] (-) TimerEvent: {}
+[10.523121] (-) TimerEvent: {}
+[10.623932] (-) TimerEvent: {}
+[10.725413] (-) TimerEvent: {}
+[10.829268] (-) TimerEvent: {}
+[10.930929] (-) TimerEvent: {}
+[11.035383] (-) TimerEvent: {}
+[11.137219] (-) TimerEvent: {}
+[11.243448] (-) TimerEvent: {}
+[11.347508] (-) TimerEvent: {}
+[11.448354] (-) TimerEvent: {}
+[11.552883] (-) TimerEvent: {}
+[11.653973] (-) TimerEvent: {}
+[11.757177] (-) TimerEvent: {}
+[11.858827] (-) TimerEvent: {}
+[11.966635] (-) TimerEvent: {}
+[12.067524] (-) TimerEvent: {}
+[12.169556] (-) TimerEvent: {}
+[12.271117] (-) TimerEvent: {}
+[12.374384] (-) TimerEvent: {}
+[12.483184] (-) TimerEvent: {}
+[12.587494] (-) TimerEvent: {}
+[12.687940] (-) TimerEvent: {}
+[12.789675] (-) TimerEvent: {}
+[12.892235] (-) TimerEvent: {}
+[12.996060] (-) TimerEvent: {}
+[13.096974] (-) TimerEvent: {}
+[13.198453] (-) TimerEvent: {}
+[13.299147] (-) TimerEvent: {}
+[13.402917] (-) TimerEvent: {}
+[13.504499] (-) TimerEvent: {}
+[13.608597] (-) TimerEvent: {}
+[13.709481] (-) TimerEvent: {}
+[13.812351] (-) TimerEvent: {}
+[13.913491] (-) TimerEvent: {}
+[14.014583] (-) TimerEvent: {}
+[14.118089] (-) TimerEvent: {}
+[14.221732] (-) TimerEvent: {}
+[14.322616] (-) TimerEvent: {}
+[14.429871] (-) TimerEvent: {}
+[14.535454] (-) TimerEvent: {}
+[14.647580] (-) TimerEvent: {}
+[14.748017] (-) TimerEvent: {}
+[14.848537] (-) TimerEvent: {}
+[14.949618] (-) TimerEvent: {}
+[15.051846] (-) TimerEvent: {}
+[15.152428] (-) TimerEvent: {}
+[15.255724] (-) TimerEvent: {}
+[15.357543] (-) TimerEvent: {}
+[15.458156] (-) TimerEvent: {}
+[15.563417] (-) TimerEvent: {}
+[15.663875] (-) TimerEvent: {}
+[15.766759] (-) TimerEvent: {}
+[15.868389] (-) TimerEvent: {}
+[15.971102] (-) TimerEvent: {}
+[16.073118] (-) TimerEvent: {}
+[16.175653] (-) TimerEvent: {}
+[16.278819] (-) TimerEvent: {}
+[16.381565] (-) TimerEvent: {}
+[16.481910] (-) TimerEvent: {}
+[16.583654] (-) TimerEvent: {}
+[16.684810] (-) TimerEvent: {}
+[16.787648] (-) TimerEvent: {}
+[16.889257] (-) TimerEvent: {}
+[16.989625] (-) TimerEvent: {}
+[17.090214] (-) TimerEvent: {}
+[17.190755] (-) TimerEvent: {}
+[17.291757] (-) TimerEvent: {}
+[17.394426] (-) TimerEvent: {}
+[17.496975] (-) TimerEvent: {}
+[17.599914] (-) TimerEvent: {}
+[17.703390] (-) TimerEvent: {}
+[17.803919] (-) TimerEvent: {}
+[17.907649] (-) TimerEvent: {}
+[18.008815] (-) TimerEvent: {}
+[18.113297] (-) TimerEvent: {}
+[18.213707] (-) TimerEvent: {}
+[18.314101] (-) TimerEvent: {}
+[18.414553] (-) TimerEvent: {}
+[18.516790] (-) TimerEvent: {}
+[18.617416] (-) TimerEvent: {}
+[18.721371] (-) TimerEvent: {}
+[18.822607] (-) TimerEvent: {}
+[18.923305] (-) TimerEvent: {}
+[19.025671] (-) TimerEvent: {}
+[19.127439] (-) TimerEvent: {}
+[19.228624] (-) TimerEvent: {}
+[19.329322] (-) TimerEvent: {}
+[19.429864] (-) TimerEvent: {}
+[19.535447] (-) TimerEvent: {}
+[19.636353] (-) TimerEvent: {}
+[19.737646] (-) TimerEvent: {}
+[19.838514] (-) TimerEvent: {}
+[19.939071] (-) TimerEvent: {}
+[20.047470] (-) TimerEvent: {}
+[20.150903] (-) TimerEvent: {}
+[20.251691] (-) TimerEvent: {}
+[20.353897] (-) TimerEvent: {}
+[20.455105] (-) TimerEvent: {}
+[20.559480] (-) TimerEvent: {}
+[20.660394] (-) TimerEvent: {}
+[20.766456] (-) TimerEvent: {}
+[20.872713] (-) TimerEvent: {}
+[20.974753] (-) TimerEvent: {}
+[21.075685] (-) TimerEvent: {}
+[21.176936] (-) TimerEvent: {}
+[21.278222] (-) TimerEvent: {}
+[21.378970] (-) TimerEvent: {}
+[21.479728] (-) TimerEvent: {}
+[21.580990] (-) TimerEvent: {}
+[21.682109] (-) TimerEvent: {}
+[21.782771] (-) TimerEvent: {}
+[21.883860] (-) TimerEvent: {}
+[21.985332] (-) TimerEvent: {}
+[22.085938] (-) TimerEvent: {}
+[22.192579] (-) TimerEvent: {}
+[22.295548] (-) TimerEvent: {}
+[22.397787] (-) TimerEvent: {}
+[22.499441] (-) TimerEvent: {}
+[22.605286] (-) TimerEvent: {}
+[22.707960] (-) TimerEvent: {}
+[22.808540] (-) TimerEvent: {}
+[22.909121] (-) TimerEvent: {}
+[23.010286] (-) TimerEvent: {}
+[23.111680] (-) TimerEvent: {}
+[23.212317] (-) TimerEvent: {}
+[23.314677] (-) TimerEvent: {}
+[23.415039] (-) TimerEvent: {}
+[23.515843] (-) TimerEvent: {}
+[23.617214] (-) TimerEvent: {}
+[23.718878] (-) TimerEvent: {}
+[23.819608] (-) TimerEvent: {}
+[23.927671] (-) TimerEvent: {}
+[24.031042] (-) TimerEvent: {}
+[24.132891] (-) TimerEvent: {}
+[24.237593] (-) TimerEvent: {}
+[24.339508] (-) TimerEvent: {}
+[24.441378] (-) TimerEvent: {}
+[24.542327] (-) TimerEvent: {}
+[24.643510] (-) TimerEvent: {}
+[24.747120] (-) TimerEvent: {}
+[24.848800] (-) TimerEvent: {}
+[24.949290] (-) TimerEvent: {}
+[25.051968] (-) TimerEvent: {}
+[25.154170] (-) TimerEvent: {}
+[25.255878] (-) TimerEvent: {}
+[25.356298] (-) TimerEvent: {}
+[25.457272] (-) TimerEvent: {}
+[25.558790] (-) TimerEvent: {}
+[25.659338] (-) TimerEvent: {}
+[25.760400] (-) TimerEvent: {}
+[25.861232] (-) TimerEvent: {}
+[25.963235] (-) TimerEvent: {}
+[26.063816] (-) TimerEvent: {}
+[26.167725] (-) TimerEvent: {}
+[26.268320] (-) TimerEvent: {}
+[26.370175] (-) TimerEvent: {}
+[26.472560] (-) TimerEvent: {}
+[26.573619] (-) TimerEvent: {}
+[26.678081] (-) TimerEvent: {}
+[26.778688] (-) TimerEvent: {}
+[26.879591] (-) TimerEvent: {}
+[26.980199] (-) TimerEvent: {}
+[27.081578] (-) TimerEvent: {}
+[27.182129] (-) TimerEvent: {}
+[27.282908] (-) TimerEvent: {}
+[27.383657] (-) TimerEvent: {}
+[27.485575] (-) TimerEvent: {}
+[27.586525] (-) TimerEvent: {}
+[27.686988] (-) TimerEvent: {}
+[27.789184] (-) TimerEvent: {}
+[27.889982] (-) TimerEvent: {}
+[27.991253] (-) TimerEvent: {}
+[28.091796] (-) TimerEvent: {}
+[28.192474] (-) TimerEvent: {}
+[28.293905] (-) TimerEvent: {}
+[28.394602] (-) TimerEvent: {}
+[28.496212] (-) TimerEvent: {}
+[28.596870] (-) TimerEvent: {}
+[28.698197] (-) TimerEvent: {}
+[28.798838] (-) TimerEvent: {}
+[28.899573] (-) TimerEvent: {}
+[29.000689] (-) TimerEvent: {}
+[29.101948] (-) TimerEvent: {}
+[29.202358] (-) TimerEvent: {}
+[29.303117] (-) TimerEvent: {}
+[29.403668] (-) TimerEvent: {}
+[29.504126] (-) TimerEvent: {}
+[29.604699] (-) TimerEvent: {}
+[29.705490] (-) TimerEvent: {}
+[29.806098] (-) TimerEvent: {}
+[29.906752] (-) TimerEvent: {}
+[30.007444] (-) TimerEvent: {}
+[30.109054] (-) TimerEvent: {}
+[30.212581] (-) TimerEvent: {}
+[30.315701] (-) TimerEvent: {}
+[30.421141] (-) TimerEvent: {}
+[30.523042] (-) TimerEvent: {}
+[30.623939] (-) TimerEvent: {}
+[30.724714] (-) TimerEvent: {}
+[30.829654] (-) TimerEvent: {}
+[30.933370] (-) TimerEvent: {}
+[31.035411] (-) TimerEvent: {}
+[31.136888] (-) TimerEvent: {}
+[31.240729] (-) TimerEvent: {}
+[31.344958] (-) TimerEvent: {}
+[31.445464] (-) TimerEvent: {}
+[31.545958] (-) TimerEvent: {}
+[31.646535] (-) TimerEvent: {}
+[31.747272] (-) TimerEvent: {}
+[31.848999] (-) TimerEvent: {}
+[31.949807] (-) TimerEvent: {}
+[32.050758] (-) TimerEvent: {}
+[32.151630] (-) TimerEvent: {}
+[32.252376] (-) TimerEvent: {}
+[32.352996] (-) TimerEvent: {}
+[32.453533] (-) TimerEvent: {}
+[32.554188] (-) TimerEvent: {}
+[32.654995] (-) TimerEvent: {}
+[32.757491] (-) TimerEvent: {}
+[32.861535] (-) TimerEvent: {}
+[32.962513] (-) TimerEvent: {}
+[33.067456] (-) TimerEvent: {}
+[33.168975] (-) TimerEvent: {}
+[33.269851] (-) TimerEvent: {}
+[33.372046] (-) TimerEvent: {}
+[33.474206] (-) TimerEvent: {}
+[33.576324] (-) TimerEvent: {}
+[33.677227] (-) TimerEvent: {}
+[33.781753] (-) TimerEvent: {}
+[33.882312] (-) TimerEvent: {}
+[33.983163] (-) TimerEvent: {}
+[34.084857] (-) TimerEvent: {}
+[34.190472] (-) TimerEvent: {}
+[34.294402] (-) TimerEvent: {}
+[34.396329] (-) TimerEvent: {}
+[34.496976] (-) TimerEvent: {}
+[34.599558] (-) TimerEvent: {}
+[34.700110] (-) TimerEvent: {}
+[34.801193] (-) TimerEvent: {}
+[34.902889] (-) TimerEvent: {}
+[35.003729] (-) TimerEvent: {}
+[35.104064] (-) TimerEvent: {}
+[35.205118] (-) TimerEvent: {}
+[35.312353] (-) TimerEvent: {}
+[35.415618] (-) TimerEvent: {}
+[35.516271] (-) TimerEvent: {}
+[35.619180] (-) TimerEvent: {}
+[35.721250] (-) TimerEvent: {}
+[35.824579] (-) TimerEvent: {}
+[35.925006] (-) TimerEvent: {}
+[36.025367] (-) TimerEvent: {}
+[36.132226] (-) TimerEvent: {}
+[36.236257] (-) TimerEvent: {}
+[36.337945] (-) TimerEvent: {}
+[36.439268] (-) TimerEvent: {}
+[36.543622] (-) TimerEvent: {}
+[36.644235] (-) TimerEvent: {}
+[36.750796] (-) TimerEvent: {}
+[36.798639] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle2.so\x1b[0m\n'}
+[36.855405] (-) TimerEvent: {}
+[36.942038] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libobstacles.so\x1b[0m\n'}
+[36.955606] (-) TimerEvent: {}
+[37.056871] (-) TimerEvent: {}
+[37.059042] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle1.so\x1b[0m\n'}
+[37.157065] (-) TimerEvent: {}
+[37.257719] (-) TimerEvent: {}
+[37.358960] (-) TimerEvent: {}
+[37.460822] (-) TimerEvent: {}
+[37.561331] (-) TimerEvent: {}
+[37.662213] (-) TimerEvent: {}
+[37.763250] (-) TimerEvent: {}
+[37.864165] (-) TimerEvent: {}
+[37.870399] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] Built target obstacle2\n'}
+[37.887462] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] Built target obstacles\n'}
+[37.917470] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] Built target obstacle1\n'}
+[37.933655] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[37.964208] (-) TimerEvent: {}
+[38.064589] (-) TimerEvent: {}
+[38.164956] (-) TimerEvent: {}
+[38.265400] (-) TimerEvent: {}
+[38.366184] (-) TimerEvent: {}
+[38.466780] (-) TimerEvent: {}
+[38.568062] (-) TimerEvent: {}
+[38.668555] (-) TimerEvent: {}
+[38.769430] (-) TimerEvent: {}
+[38.869832] (-) TimerEvent: {}
+[38.970357] (-) TimerEvent: {}
+[39.071004] (-) TimerEvent: {}
+[39.171454] (-) TimerEvent: {}
+[39.271885] (-) TimerEvent: {}
+[39.372343] (-) TimerEvent: {}
+[39.425409] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target turtlebot3_drive\n'}
+[39.450248] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[39.472443] (-) TimerEvent: {}
+[39.539503] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[39.580586] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mengo/amr_project_ws/src/build/turtlebot3_gazebo'], 'cwd': '/home/mengo/amr_project_ws/src/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'mengo'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mengo'), ('OLDPWD', '/home/mengo/amr_project_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1610'), ('SYSTEMD_EXEC_PID', '1772'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '43675'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mengo/amr_project_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mengo'), ('JOURNAL_STREAM', '8:35116'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mengo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mengo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mengo-VivoBook-ASUSLaptop-X571GT-X571GT:@/tmp/.ICE-unix/1751,unix/mengo-VivoBook-ASUSLaptop-X571GT-X571GT:/tmp/.ICE-unix/1751'), ('INVOCATION_ID', '6a177145358d4ea4893793032f62d816'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2EOGI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mengo/amr_project_ws/install/turtlebot3_gazebo:/home/mengo/amr_project_ws/install/exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f1689be2-4575-4470-aa71-e2e51f77b7bd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mengo/amr_project_ws/src/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mengo/amr_project_ws/install/exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mengo/amr_project_ws/install/turtlebot3_gazebo:/home/mengo/amr_project_ws/install/exploration:/opt/ros/humble')]), 'shell': False}
+[39.581881] (-) TimerEvent: {}
+[39.598666] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[39.600560] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[39.632430] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""\n'}
+[39.633702] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch\n'}
+[39.639241] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[39.644465] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[39.648523] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[39.648845] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[39.649036] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_big_house.launch.py\n'}
+[39.649228] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[39.649428] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[39.649612] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[39.649796] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py\n'}
+[39.649981] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[39.650176] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models\n'}
+[39.650367] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger\n'}
+[39.650569] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf\n'}
+[39.650971] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf\n'}
+[39.651422] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config\n'}
+[39.651734] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world\n'}
+[39.651961] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin\n'}
+[39.652223] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc\n'}
+[39.652544] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt\n'}
+[39.652846] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc\n'}
+[39.653672] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc\n'}
+[39.654236] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box\n'}
+[39.654675] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[39.655034] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[39.655470] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1\n'}
+[39.655953] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[39.656357] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[39.656844] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls\n'}
+[39.657110] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[39.657460] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[39.657656] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[39.657866] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2\n'}
+[39.658093] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[39.659291] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[39.661489] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles\n'}
+[39.663190] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[39.663777] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[39.664095] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[39.664449] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common\n'}
+[39.664951] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config\n'}
+[39.665248] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes\n'}
+[39.665497] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae\n'}
+[39.668590] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[39.668839] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae\n'}
+[39.669033] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[39.669221] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[39.669483] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae\n'}
+[39.669716] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle\n'}
+[39.669987] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[39.670573] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[39.672109] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[39.673733] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi\n'}
+[39.676438] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf\n'}
+[39.677184] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config\n'}
+[39.677723] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[39.678833] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house\n'}
+[39.679488] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf\n'}
+[39.681051] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config\n'}
+[39.681499] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_big_house\n'}
+[39.681963] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_big_house/model.sdf\n'}
+[39.682238] (-) TimerEvent: {}
+[39.683819] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_big_house/model.config\n'}
+[39.684238] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world\n'}
+[39.684636] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[39.685349] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[39.685751] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[39.686113] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes\n'}
+[39.686715] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[39.687243] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[39.687662] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz\n'}
+[39.687971] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[39.688361] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf\n'}
+[39.688771] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf\n'}
+[39.689085] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf\n'}
+[39.689449] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf\n'}
+[39.689765] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf\n'}
+[39.690108] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds\n'}
+[39.690683] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world\n'}
+[39.692594] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world\n'}
+[39.693471] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world\n'}
+[39.693848] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world\n'}
+[39.694076] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_big_houses\n'}
+[39.694492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_big_houses/burger.model\n'}
+[39.694912] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_big_houses/waffle_pi.model\n'}
+[39.695361] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_big_houses/waffle.model\n'}
+[39.695731] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world\n'}
+[39.695971] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world\n'}
+[39.696439] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world\n'}
+[39.696733] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/include/\n'}
+[39.697351] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/include//turtlebot3_gazebo\n'}
+[39.697659] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[39.698137] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[39.698678] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[39.699195] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[39.699638] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[39.700003] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[39.700417] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[39.700734] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[39.701086] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[39.701355] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[39.701624] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[39.701908] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[39.702534] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[39.702998] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[39.703303] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[39.703661] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[39.703956] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[39.704246] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/mengo/amr_project_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[39.713508] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[39.782789] (-) TimerEvent: {}
+[39.884417] (-) TimerEvent: {}
+[39.995898] (-) TimerEvent: {}
+[40.097201] (-) TimerEvent: {}
+[40.198199] (-) TimerEvent: {}
+[40.298847] (-) TimerEvent: {}
+[40.399336] (-) TimerEvent: {}
+[40.435631] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[40.438368] (-) EventReactorShutdown: {}
