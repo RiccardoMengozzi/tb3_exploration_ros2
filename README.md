@@ -40,6 +40,9 @@ $ . install/setup.bash
 # Mapping Usage
 Open 4 terminals:<br />
 <br />
+!!! Be sure to source and to do a colcon build !!!
+<br/>
+
 Run Turtlebot3 Gazebo Simulation:
 ```console
 export TURTLEBOT3_MODEL=burger
