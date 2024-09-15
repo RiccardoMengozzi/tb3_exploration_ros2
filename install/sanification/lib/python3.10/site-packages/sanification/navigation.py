@@ -37,6 +37,7 @@ class GoalPublisherNode(Node):
 
     def read_goals_from_file(self):
         self.goals = []
+        print("self.file_path", self.file_path)
         try:
             with open(self.file_path, 'r') as file:
                 for line in file:
@@ -90,7 +91,22 @@ def create_PoseStamped(nav: BasicNavigator, xx, yy, yaw):
 
 def main(args=None):
     
-    file_path = os.path.abspath('src/sanification/files/goal_sequence.txt')
+    script_dir = os.getcwd()
+    print("script_dir", script_dir)
+
+    # Assuming the script is somewhere in the project and you want to navigate to the project root
+    # Navigate to the project root by going up directories (e.g., three levels up in this case)
+    project_root = os.path.abspath(os.path.join(script_dir, ".."))
+    print("project_root", project_root)
+
+    # Relative path to the target file from the project root
+    relative_path = "src/sanification/files/goal_sequence.txt"
+    print("relative_path", relative_path)
+
+    # Combine the project root and the relative path to form the absolute path
+    file_path = os.path.join(project_root, relative_path)
+    #file_path = os.path.join(os.getcwd(), file_path)
+    print("file_path", file_path)
     rclpy.init(args=args)
     goal_publisher = GoalPublisherNode(file_path)
     rclpy.spin(goal_publisher)

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mengo/amr_project_ws/src/turtlebot3_gazebo
+CMAKE_SOURCE_DIR = /home/mengo/Desktop/GithubRepositories/amr_slam_ros2/src/turtlebot3_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mengo/amr_project_ws/build/turtlebot3_gazebo
+CMAKE_BINARY_DIR = /home/mengo/Desktop/GithubRepositories/amr_slam_ros2/build/turtlebot3_gazebo
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/mengo/amr_project_ws/build/turtlebot3_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mengo/amr_project_ws/src/turtlebot3_gazebo /home/mengo/amr_project_ws/src/turtlebot3_gazebo /home/mengo/amr_project_ws/build/turtlebot3_gazebo /home/mengo/amr_project_ws/build/turtlebot3_gazebo /home/mengo/amr_project_ws/build/turtlebot3_gazebo/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mengo/Desktop/GithubRepositories/amr_slam_ros2/build/turtlebot3_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mengo/Desktop/GithubRepositories/amr_slam_ros2/src/turtlebot3_gazebo /home/mengo/Desktop/GithubRepositories/amr_slam_ros2/src/turtlebot3_gazebo /home/mengo/Desktop/GithubRepositories/amr_slam_ros2/build/turtlebot3_gazebo /home/mengo/Desktop/GithubRepositories/amr_slam_ros2/build/turtlebot3_gazebo /home/mengo/Desktop/GithubRepositories/amr_slam_ros2/build/turtlebot3_gazebo/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
