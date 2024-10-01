@@ -27,14 +27,14 @@ sudo apt install ros-humble-turtlebot3
 
 Install Turtlebot3 simulation packages
  ```console
-$ mkdir -p ~/turtlebot3_ws/src/
-$ cd ~/turtlebot3_ws/src/
-$ git clone -b humble-devel \
+mkdir -p ~/turtlebot3_ws/src/
+cd ~/turtlebot3_ws/src/
+git clone -b humble-devel \
 https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-$ cd ~/turtlebot3_ws
-$ rosdep install -i --from-path src --rosdistro humble -y
-$ colcon build --symlink-install
-$ . install/setup.bash
+cd ~/turtlebot3_ws
+rosdep install -i --from-path src --rosdistro humble -y
+colcon build --symlink-install
+. install/setup.bash
 ```
 
 # Mapping Usage
