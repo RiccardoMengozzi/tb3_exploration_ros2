@@ -1,4 +1,3 @@
-![](https://github.com/RiccardoMengozzi/tb3_exploration_ros2/blob/main/docs/videos/Sanitization.gif)
 
 # tb3_exploration_ros2
 The project implement autonomous mapping through slam, localization and navigation of an amr, with the use of turtlebot3 navigation package. Then a "sanification" task is performed: the robot should autonomously navigate through the mapped environment to sanitize it in an efficient way. Read the report for further informations.
@@ -38,6 +37,8 @@ rosdep install -i --from-path src --rosdistro humble -y
 colcon build --symlink-install
 . install/setup.bash
 ```
+# Mapping Demo
+https://github.com/user-attachments/assets/23c4ea2b-3dd0-48be-ba81-2fa4e60a1080
 
 # Mapping Usage
 Open 4 terminals:<br />
@@ -99,7 +100,13 @@ Run the Localization node:
 ros2 run sanification localization
 ```
 
-# Sanitization Usage
+# Sanitaiton Demo
+
+
+https://github.com/user-attachments/assets/480809aa-13fc-4d8e-9948-9bcfb40d9232
+
+
+# Sanitation Usage
 After the robot has been localized, keeping gazebo simulation and navigation node open:<br />
 
 Change rviz2 config to visualize the energy map: go to file -> open config and select: /home/mengo/amr_project_ws/src/sanification/files/sanification.rviz
