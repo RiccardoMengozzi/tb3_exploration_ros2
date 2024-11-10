@@ -1,6 +1,6 @@
 
 # tb3_exploration_ros2
-The project implement autonomous mapping through slam, localization and navigation of an amr, with the use of turtlebot3 navigation package. Then a "sanification" task is performed: the robot should autonomously navigate through the mapped environment to sanitize it in an efficient way. Read the report for further informations.
+The project implement an autonomous exploration with a frontier-based algorithm, localization and navigation of an amr (Turtlebot3). Then a "sanification" task is performed: the robot should autonomously navigate through the mapped environment to sanitize it in an efficient way. Read the report for further informations.
 
 # Installation
 The default ROS simulator is Gazebo. 
@@ -100,13 +100,13 @@ Run the Localization node:
 ros2 run sanification localization
 ```
 
-# Sanitaiton Demo
+# Sanification Demo
 
 
 https://github.com/user-attachments/assets/480809aa-13fc-4d8e-9948-9bcfb40d9232
 
 
-# Sanitation Usage
+# Sanification Usage
 After the robot has been localized, keeping gazebo simulation and navigation node open:<br />
 
 Change rviz2 config to visualize the energy map: go to file -> open config and select: /home/mengo/amr_project_ws/src/sanification/files/sanification.rviz
@@ -126,5 +126,5 @@ Run the planner node giving as argument a number between 0 and 8 that identifies
 ros2 run sanification planner
 ```
 
-After the sanitization of the room has been completed, the planner can be runned again.
+After the sanification of the room has been completed, the planner can be runned again.
 
