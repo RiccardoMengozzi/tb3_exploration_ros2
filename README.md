@@ -1,3 +1,5 @@
+![](https://github.com/RiccardoMengozzi/tb3_exploration_ros2/blob/main/docs/videos/Sanitization.gif)
+
 # tb3_exploration_ros2
 The project implement autonomous mapping through slam, localization and navigation of an amr, with the use of turtlebot3 navigation package. Then a "sanification" task is performed: the robot should autonomously navigate through the mapped environment to sanitize it in an efficient way. Read the report for further informations.
 
